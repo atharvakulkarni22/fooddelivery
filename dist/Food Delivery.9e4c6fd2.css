@@ -1,0 +1,35 @@
+.header {
+  border: 10px solid orange;
+  justify-content: space-between;
+  margin: 10px;
+  display: flex;
+}
+
+.body {
+  margin: 10px;
+  display: flex;
+}
+
+.nav-items {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-items > li {
+  padding: 10px;
+}
+
+.logo {
+  width: 100px;
+}
+
+.restaurant-card {
+  border: 1px solid #000;
+  width: 200px;
+  padding: 10px;
+}
+
+.restaurant-card > img {
+  width: 100%;
+}
+/*# sourceMappingURL=Food Delivery.9e4c6fd2.css.map */

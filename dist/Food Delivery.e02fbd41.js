@@ -681,21 +681,161 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
 var _client = require("react-dom/client");
 var _clientDefault = parcelHelpers.interopDefault(_client);
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
-const App = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-        children: "Hello"
+const App = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Header, {}, void 0, false, {
+                fileName: "index.js",
+                lineNumber: 10,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Body, {}, void 0, false, {
+                fileName: "index.js",
+                lineNumber: 11,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Footer, {}, void 0, false, {
+                fileName: "index.js",
+                lineNumber: 12,
+                columnNumber: 9
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "index.js",
+        lineNumber: 9,
+        columnNumber: 5
+    }, undefined);
+};
+_c = App;
+const Header = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "header",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                src: "https://cdn.vectorstock.com/i/1000v/43/65/food-delivery-icon-set-vector-4904365.jpg",
+                alt: "logo",
+                className: "logo"
+            }, void 0, false, {
+                fileName: "index.js",
+                lineNumber: 20,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                className: "nav-items",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        children: "Home"
+                    }, void 0, false, {
+                        fileName: "index.js",
+                        lineNumber: 22,
+                        columnNumber: 13
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        children: "About"
+                    }, void 0, false, {
+                        fileName: "index.js",
+                        lineNumber: 23,
+                        columnNumber: 13
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        children: "Contact"
+                    }, void 0, false, {
+                        fileName: "index.js",
+                        lineNumber: 24,
+                        columnNumber: 13
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "index.js",
+                lineNumber: 21,
+                columnNumber: 9
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "index.js",
+        lineNumber: 19,
+        columnNumber: 5
+    }, undefined);
+};
+_c1 = Header;
+const Body = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "body",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(RestaurantCard, {}, void 0, false, {
+            fileName: "index.js",
+            lineNumber: 33,
+            columnNumber: 13
+        }, undefined)
     }, void 0, false, {
         fileName: "index.js",
-        lineNumber: 7,
-        columnNumber: 19
+        lineNumber: 32,
+        columnNumber: 9
     }, undefined);
-_c = App;
+};
+_c2 = Body;
+const Footer = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+        children: "Footer"
+    }, void 0, false, {
+        fileName: "index.js",
+        lineNumber: 40,
+        columnNumber: 9
+    }, undefined);
+};
+_c3 = Footer;
+const RestaurantCard = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "restaurant-card",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                src: "https://cdn.vectorstock.com/i/1000v/43/65/food-delivery-icon-set-vector-4904365.jpg",
+                alt: "reataurant-image",
+                className: "reataurant-image"
+            }, void 0, false, {
+                fileName: "index.js",
+                lineNumber: 47,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                children: "Restaurant Name"
+            }, void 0, false, {
+                fileName: "index.js",
+                lineNumber: 48,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: "Cuisines"
+            }, void 0, false, {
+                fileName: "index.js",
+                lineNumber: 49,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: "rating"
+            }, void 0, false, {
+                fileName: "index.js",
+                lineNumber: 50,
+                columnNumber: 13
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "index.js",
+        lineNumber: 46,
+        columnNumber: 9
+    }, undefined);
+};
+_c4 = RestaurantCard;
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
     fileName: "index.js",
-    lineNumber: 9,
+    lineNumber: 55,
     columnNumber: 13
 }, undefined));
-var _c;
+var _c, _c1, _c2, _c3, _c4;
 $RefreshReg$(_c, "App");
+$RefreshReg$(_c1, "Header");
+$RefreshReg$(_c2, "Body");
+$RefreshReg$(_c3, "Footer");
+$RefreshReg$(_c4, "RestaurantCard");
 
   $parcel$ReactRefreshHelpers$3d99.postlude(module);
 } finally {

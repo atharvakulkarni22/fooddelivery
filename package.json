@@ -1,0 +1,32 @@
+{
+  "name": "food-delivery",
+  "version": "1.0.0",
+  "description": "Food Delivery Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atharvakulkarni22/fooddelivery.git"
+  },
+  "keywords": [
+    "ReactJs",
+    "JavaScript"
+  ],
+  "author": "Atharva Kulkarni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atharvakulkarni22/fooddelivery/issues"
+  },
+  "homepage": "https://github.com/atharvakulkarni22/fooddelivery#readme",
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  }
+}

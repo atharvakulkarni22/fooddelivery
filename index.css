@@ -27,6 +27,7 @@
     border: 1px solid black;
     width: 200px;
     padding: 50px;
+    margin: 20px; 
 }
 
 .restaurant-card > img {
@@ -37,4 +38,5 @@
     padding: 50px;
     display: flex;
     flex-wrap: wrap;
+
 }

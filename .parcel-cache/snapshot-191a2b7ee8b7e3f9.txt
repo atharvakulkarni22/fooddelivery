@@ -29,7 +29,7 @@
 74D:\React\Food Delivery\node_modules\@parcel\transformer-babel\lib\utils.js134025293307015810 0
 90D:\React\Food Delivery\node_modules\caniuse-lite\data\features\css-file-selector-button.js134025293309214011 0
 78D:\React\Food Delivery\node_modules\caniuse-lite\data\features\imagecapture.js134025293310881759 0
-27D:\React\Food Delivery\dist134025390159553703 1
+27D:\React\Food Delivery\dist134025552058152613 1
 48D:\React\Food Delivery\node_modules\caniuse-lite134025293313563019 1
 82D:\React\Food Delivery\node_modules\caniuse-lite\data\features\broadcastchannel.js134025293308203507 0
 80D:\React\Food Delivery\node_modules\@parcel\source-map\parcel_sourcemap_node\src134025293308382556 1
@@ -43,12 +43,12 @@
 67D:\React\Food Delivery\node_modules\caniuse-lite\data\regions\UY.js134025293312883825 0
 72D:\React\Food Delivery\node_modules\@parcel\workers\src\web\WebWorker.js134025293307779415 0
 32D:\React\Food Delivery\README.md134025277048960040 0
-32D:\React\Food Delivery\index.css134025389561750878 0
+32D:\React\Food Delivery\index.css134025552057492541 0
 57D:\React\Food Delivery\node_modules\browserslist\parse.js134025293306424817 0
 72D:\React\Food Delivery\node_modules\@swc\helpers\src\_overload_yield.mjs134025293310881759 0
 82D:\React\Food Delivery\node_modules\node-gyp-build-optional-packages\build-test.js134025293305723057 0
 82D:\React\Food Delivery\node_modules\.bin\node-gyp-build-optional-packages-test.cmd134025293314048628 0
-31D:\React\Food Delivery\index.js134025390158469075 0
+31D:\React\Food Delivery\index.js134025549099725190 0
 81D:\React\Food Delivery\node_modules\@swc\helpers\_\_write_only_error\package.json134025293310460162 0
 67D:\React\Food Delivery\node_modules\caniuse-lite\data\regions\TN.js134025293312707981 0
 77D:\React\Food Delivery\node_modules\react\cjs\react-jsx-runtime.production.js134025334689549569 0
@@ -1336,7 +1336,7 @@
 61D:\React\Food Delivery\node_modules\lmdb\src\v8-functions.cpp134025293308565399 0
 51D:\React\Food Delivery\node_modules\clone\README.md134025293305723057 0
 54D:\React\Food Delivery\node_modules\lmdb\src\windows.c134025293308341719 0
-38D:\React\Food Delivery\dist\index.html134025378653140262 0
+38D:\React\Food Delivery\dist\index.html134025541766869624 0
 73D:\React\Food Delivery\node_modules\@swc\helpers\cjs\_read_only_error.cjs134025293308114868 0
 71D:\React\Food Delivery\node_modules\caniuse-lite\data\regions\alt-oc.js134025293307196778 0
 85D:\React\Food Delivery\node_modules\@swc\helpers\_\_ts_dispose_resources\package.json134025293310302546 0
@@ -1726,7 +1726,7 @@
 62D:\React\Food Delivery\node_modules\caniuse-lite\data\features134025293313553138 1
 127D:\React\Food Delivery\node_modules\@parcel\core\test\fixtures\plugins\node_modules\parcel-transformer-bad-engines\package.json134025293309644809 0
 65D:\React\Food Delivery\node_modules\caniuse-lite\data\features.js134025293310374436 0
-54D:\React\Food Delivery\dist\Food Delivery.9e4c6fd2.css134025389518758621 0
+54D:\React\Food Delivery\dist\Food Delivery.9e4c6fd2.css134025552058132624 0
 81D:\React\Food Delivery\node_modules\@parcel\runtime-js\src\helpers\.eslintrc.json134025293307691759 0
 67D:\React\Food Delivery\node_modules\caniuse-lite\data\regions\AF.js134025293306540810 0
 62D:\React\Food Delivery\node_modules\@parcel\types-internal\lib134025293307404994 1
@@ -2629,7 +2629,7 @@
 82D:\React\Food Delivery\node_modules\@swc\helpers\esm\_class_private_method_init.js134025293308732085 0
 93D:\React\Food Delivery\node_modules\@swc\helpers\src\_class_static_private_field_spec_get.mjs134025293310647710 0
 67D:\React\Food Delivery\node_modules\@swc\helpers\src\_construct.mjs134025293310687786 0
-58D:\React\Food Delivery\dist\Food Delivery.9e4c6fd2.css.map134025389518758621 0
+58D:\React\Food Delivery\dist\Food Delivery.9e4c6fd2.css.map134025552058152613 0
 85D:\React\Food Delivery\node_modules\@parcel\core\test\fixtures\invalid-source-missing134025293309570765 1
 84D:\React\Food Delivery\node_modules\@parcel\feature-flags\test\feature-flags.test.js134025293305723057 0
 70D:\React\Food Delivery\node_modules\@swc\helpers\src\_create_class.mjs134025293310699333 0
@@ -3503,7 +3503,7 @@
 79D:\React\Food Delivery\node_modules\@parcel\core\test\fixtures\config\.parcelrc134025293306540810 0
 79D:\React\Food Delivery\node_modules\@parcel\core\test\fixtures\config\subfolder134025293306713784 1
 90D:\React\Food Delivery\node_modules\@parcel\core\test\fixtures\common-targets\package.json134025293309540772 0
-53D:\React\Food Delivery\dist\Food Delivery.e02fbd41.js134025390159503036 0
+53D:\React\Food Delivery\dist\Food Delivery.e02fbd41.js134025549101046625 0
 95D:\React\Food Delivery\node_modules\@parcel\core\test\fixtures\application-targets\package.json134025293309382536 0
 66D:\React\Food Delivery\node_modules\@parcel\core\src\buildCache.js134025293307651703 0
 67D:\React\Food Delivery\node_modules\@parcel\core\src\BundleGraph.js134025293307799415 0
@@ -3615,4 +3615,4 @@
 51D:\React\Food Delivery\node_modules\.bin\semver.cmd134025293314048628 0
 63D:\React\Food Delivery\node_modules\.bin\update-browserslist-db134025293314048628 0
 54D:\React\Food Delivery\dist\Food Delivery.5511fab8.css134025376383504207 0
-57D:\React\Food Delivery\dist\Food Delivery.e02fbd41.js.map134025390159553703 0
+57D:\React\Food Delivery\dist\Food Delivery.e02fbd41.js.map134025549101096684 0

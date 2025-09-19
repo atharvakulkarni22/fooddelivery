@@ -10,8 +10,8 @@ const RestaurantCard = ({restaurant}) => {
         className="restaurant-image"
       ></img>
       <h4>{name}</h4>
-      <div>{cuisines.join(", ")}</div>
-      <div>{avgRating}</div>
+      <div>Cuisines: {cuisines.join(", ")}</div>
+      <div>Rating: {avgRating}</div>
     </div>
   );
 };

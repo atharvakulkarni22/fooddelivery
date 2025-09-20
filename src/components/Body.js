@@ -35,9 +35,8 @@ const Body = () => {
       <div className="body">
         {filteredRestaurantData?.map((restaurant) => {
           return (
-            <RestaurantCard
+            <RestaurantCard  key={restaurant?.info?.id}
               restaurant={restaurant.info}
-              key={restaurant?.info?.id}
             />
           );
         })}

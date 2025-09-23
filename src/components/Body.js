@@ -1,6 +1,7 @@
 import RestaurantCard from "./RestaurantCard";
 import { restaurantList } from "../config";
 import { useEffect, useState } from "react";
+import { useRestaurants } from "./useRestaurants.js";
 
 function filterData (searchText, restaurantData) {
   const data = restaurantData.filter((restaurant) => restaurant.info.name.toLowerCase().includes(searchText.toLowerCase()));
@@ -9,22 +10,13 @@ function filterData (searchText, restaurantData) {
 
 const Body = () => {
   const [searchText, setSearchText] = useState("");
-  const [restaurantData, setRestaurantData] = useState([]);
   const [filteredRestaurantData, setFilteredRestaurantData] = useState([]);
 
+  const restaurantData = useRestaurants();
 
   useEffect(() => {
-    getRestaurantData();
-  }, []);
-
-  async function getRestaurantData() {
-    const data = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=18.5288974&lng=73.8665321&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING");
-    const jsonData = await data.json();
-    // console.log(jsonData.data.cards[1].card.card);
-    const restaurantData = jsonData.data.cards[1].card.card.gridElements.infoWithStyle.restaurants
-    setRestaurantData(restaurantData);
     setFilteredRestaurantData(restaurantData);
-  }
+  }, [restaurantData]);
 
   return (
     <>

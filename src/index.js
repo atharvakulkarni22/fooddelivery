@@ -1,13 +1,14 @@
-import React from "react";
+import {lazy, Suspense} from "react";
 import ReactDOM from "react-dom/client";
 import Body from "./components/Body";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
-import About from "./components/About";
-import Contact from "./components/Contact";
 import Error from "./components/Error"
 import RestaurantMenu from "./components/RestaurantMenu";
+
+const About = lazy(() => import("./components/About"));
+const Contact = lazy(() => import("./components/Contact"));
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -33,11 +34,11 @@ const appRouter = createBrowserRouter([
         },
         {
           path: '/about',
-          element: <About />
+          element: <Suspense><About /></Suspense>
         },
         {
           path: '/contact',
-          element: <Contact />
+          element: <Suspense><Contact /></Suspense>
         },
         {
           path: '/restaurant/:id',

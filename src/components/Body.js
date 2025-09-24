@@ -20,11 +20,11 @@ const Body = () => {
 
   return (
     <>
-      <div className="search-text">
-        <input type="text" placeholder="Search" value={searchText} onChange={(e) => {setSearchText(e.target.value)}}></input>
-        <button onClick={() => { setFilteredRestaurantData(filterData(searchText, restaurantData))}}>Search</button>
+      <div className="place-self-center">
+        <input type="text" placeholder="Search" className="p-5 w-100 m-5 outline-amber-500  bg-amber-200"  value={searchText} onChange={(e) => {setSearchText(e.target.value)}}></input>
+        <button className="w-30 m-5 bg-amber-600 h-10 rounded-full" onClick={() => { setFilteredRestaurantData(filterData(searchText, restaurantData))}}>Search</button>
       </div>
-      <div className="body">
+      <div className="flex flex-wrap">
         {filteredRestaurantData?.map((restaurant) => {
           return (
             <RestaurantCard  key={restaurant?.info?.id}

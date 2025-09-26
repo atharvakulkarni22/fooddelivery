@@ -6,6 +6,9 @@ import Footer from "./components/Footer";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import Error from "./components/Error"
 import RestaurantMenu from "./components/RestaurantMenu";
+import { Provider } from "react-redux";
+import store from "./components/utils/store";
+import Cart from "./components/Cart";
 
 const About = lazy(() => import("./components/About"));
 const Contact = lazy(() => import("./components/Contact"));
@@ -14,11 +17,11 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 const App = () => {
   return (
-    <div>
+    <Provider store={store}>
       <Header />
       <Outlet />
       <Footer />
-    </div>
+    </Provider>
   );
 };
 
@@ -43,6 +46,10 @@ const appRouter = createBrowserRouter([
         {
           path: '/restaurant/:id',
           element: <RestaurantMenu />
+        }, 
+        {
+          path: '/cart',
+          element: <Cart />
         }
       ]
     }

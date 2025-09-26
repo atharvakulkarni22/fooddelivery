@@ -7,7 +7,8 @@ export const useRestaurantDetails = (id) => {
     async function getRestaurantData() {
         const data = await fetch(RESTAURANT_MENU_URL+id);
         const jsonData = await data.json();
-        console.log(jsonData?.data?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1]?.card?.card?.itemCards);
+        // console.log(jsonData);
+        console.log(jsonData?.data?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[2]?.card?.card?.itemCards);
         setRestaurantDetails(jsonData?.data?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1]?.card?.card?.itemCards);
     }
     
